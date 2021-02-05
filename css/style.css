@@ -1,8 +1,8 @@
 header {
     background: url('../image/1605446657939.jpg');
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
     height: 400px;
@@ -39,7 +39,7 @@ header {
     padding: 8rem;
 }
 
-.Profile {
+/* .Profile {
     padding-top: 7rem;
     padding-bottom: 7rem;
 }
@@ -47,7 +47,7 @@ header {
 .Profile .Profile-item img {
     max-width: 12rem;
     box-shadow: 0 5px 5px #adb5bd;
-}
+} */
 
 footer {
     padding-top: 4rem;
