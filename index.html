@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap 5 w/ WareHouse</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     
-
 </head>
 <body>
-    
     <!-- Navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <div >
+        <span >
           <div class="iconnavbar">
           </div>
+          <i class="fas fa-warehouse fs-1"></i>
+          
         </div>
-        <!-- <a href="#" class="navbar-brand">Welcome to my Warehouse</a> -->
+        <a href="#" class="navbar-brand">Welcome to my Warehouse</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,15 +41,40 @@
           </ul>
         </div>
       </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-warehouse fs-2"></i>
+          WAREHOUSE
+        </a>
+
+    <form class="d-flex">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+        
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <!--Header-->
-    <header class="text-black text-center">
+    <!-- <header class="text-black text-center">
       <div class="container">
           <div class="row">
-              <div class="col-xl-9 mx-auto">
+              <div class="col-xl-9 mx-auto"> -->
                   <!-- <h1 class="mb-5" >สวัสดีครับวันนี้เรามาพบกับ WareHouse ของเรานะครับ</h1> -->
-              </div>
+              <!-- </div>
 
               <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                   <form action="">
@@ -60,60 +87,65 @@
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
+    
+    <div class="text-center fs-1 text-primary"> What is WAREHOUSE ?</div>
+      <div class="container text-center fs-5">Warehousing is when you purchase goods from a manufacturer and store them before they are shipped to another location for fulfillment. You may store these goods in a warehouse, spare room, or other facilities. This all depends on how much stock you have, and how big your business is. If you’ve a small business your warehousing option doesn’t need to include transport access.</div>
 
     <!-- Features icons -->
     <section class="icons bg-black text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-            <div class="icons-items mx-auto mb-5 mb-lg-3">
+            <div class="icons-items ">
 
-              <div class="icons-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-square" viewBox="0 0 16 16">
+              <div class="icons-icon text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" fill="currentColor" class="bi bi-check2-square" viewBox="0 0 16 16">
                   <path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5H3z"/>
                   <path d="M8.354 10.354l7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
                 </svg>
-              </div>
+              </div> 
 
-              <h3>Check Wearhouse</h3>
+              <h4 type="button" class="btn btn-primary">Check Waerhouse</h4>
 
-              <p class="icons-text mb-0">สามารถตรวจสอบสถานะของสินค้าภายในคลังสินค้าได้</p>
+              <p class="icons-text mb-1">สามารถตรวจสอบสถานะของสินค้าภายในคลังสินค้าได้</p>
             </div>
           </div>
 
           <div class="col-lg-4">
-            <div class="icons-items mx-auto mb-5 mb-lg-3">
+            <div class="icons-items ">
 
-              <div class="icons-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+              <div class="icons-icon text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50"  fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
                   <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
                 </svg>
               </div>
 
-              <h3>Check New Supplies</h3>
+              <h4 type="button" class="btn btn-primary">Check New Supplies</h4>
 
-              <p class="icons-text mb-0">สามารถตรวจสอบสถานะยอดของสินค้าใหม่ภายในคลังสินค้าได้</p>
+              <p class="icons-text mb-1">สามารถตรวจสอบสถานะยอดของสินค้าใหม่ภายในคลังสินค้าได้</p>
             </div>
           </div>
 
           <div class="col-lg-4">
-            <div class="icons-items mx-auto mb-5 mb-lg-3">
+            <div class="icons-items ">
 
-              <div class="icons-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box" viewBox="0 0 16 16">
+              <div class="icons-icon text-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50"  fill="currentColor" class="bi bi-box" viewBox="0 0 16 16">
                   <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
                 </svg>
               </div>
 
-              <h3>Check Old Supplies</h3>
+              <h4 type="button" class="btn btn-primary">Check Old Supplies</h4>
 
-              <p class="icons-text mb-0">สามารถตรวจสอบสถานะของสินค้าเก่าภายในคลังสินค้าได้</p>
+              <p class="icons-text mb-1">สามารถตรวจสอบสถานะของสินค้าเก่าภายในคลังสินค้าได้</p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+ 
 
     <!-- Image Showcase -->
     <section class="showcase"> 
@@ -147,8 +179,8 @@
       </div>
     </section>
 
-    <!-- Profile
-    <section class="Profile text-center bg-light">
+    <!-- Profile -->
+    <!-- <section class="Profile text-center bg-light">
       <div class="container">
         <h2 class="mb-5">มีหรือไม่มีดีนะ</h2>
 
@@ -157,22 +189,22 @@
             <div class="Profile-item mx-auto mb-5 mb-lg-0">
               <img src="image/Poom.jpg" class="img-fluid rounded-circle mb-3" alt="">
               <h5>พูมเอง.</h5>
-              <!-- <p class="font-weight-light mb-0">"พูมค้าบ"</p> -->
-            <!-- </div>
+              <p class="font-weight-light mb-0">"พูมค้าบ"</p>
+            </div>
           </div>
           <div class="col-lg-4">
             <div class="Profile-item mx-auto mb-5 mb-lg-0">
               <img src="image/Poom.jpg" class="img-fluid rounded-circle mb-3" alt="">
               <h5>พูมไง.</h5>
-              <!-- <p class="font-weight-light mb-0">"พูมค้าบบ"</p> -->
-            <!-- </div>
+               <p class="font-weight-light mb-0">"พูมค้าบบ"</p>
+            </div>
           </div>
           <div class="col-lg-4">
             <div class="Profile-item mx-auto mb-5 mb-lg-0">
               <img src="image/Poom.jpg" class="img-fluid rounded-circle mb-3" alt="">
               <h5>พูม.</h5>
-              <!-- <p class="font-weight-light mb-0">"พูมค้าบบบ"</p> -->
-            <!-- </div>
+              <p class="font-weight-light mb-0">"พูมค้าบบบ"</p>
+            </div>
           </div>
         </div>
       </div>
@@ -190,6 +222,8 @@
     </footer>
 
     
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
 </body>
 </html>

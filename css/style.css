@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200&display=swap');
+
+*{
+    font-family: 'Mitr', sans-serif;
+}
+
 header {
     background: url('../image/1605446657939.jpg');
     background-repeat: no-repeat;
@@ -53,3 +59,4 @@ footer {
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+
